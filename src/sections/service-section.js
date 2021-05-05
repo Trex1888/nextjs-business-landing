@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 /** @jsx jsx */
+import React, { useState } from "react";
 import {
   jsx,
   Container,
@@ -45,18 +45,63 @@ const data = {
 };
 
 export default function ServiceSection() {
+  const [videoOpen, setVideoOpen] = useState(false);
+
+  const handleClick = (e) => {
+    e.preventDefault();
+
+    setVideoOpen(true);
+  };
+
   return (
-    <section sx={{ variant: "section.servies" }}>
-      <Container>
-        <Box>
+    <section sx={{ variant: "section.services" }}>
+      <Container sx={styles.containerBox}>
+        <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="Thumbnail" />
-          <Button></Button>
+          <Button
+            sx={styles.videoBtn}
+            onClick={handleClick}
+            aria-label="Play Button"
+          >
+            <span>
+              <IoIosPlay />
+            </span>
+          </Button>
+          <Box sx={styles.shapeBox}>
+            <Image src={shapePattern} alt="shape" />
+          </Box>
         </Box>
+        <Box sx={styles.contentBox}>
+          <TextFeature subTitle={data.subTitle} title={data.title} />
+
+          <Grid sx={styles.grid}>
+            {data.features.map((feature) => (
+              <Box sx={styles.card} key={feature.id}>
+                <Image
+                  src={feature.imgSrc}
+                  alt={feature.altText}
+                  sx={styles.icon}
+                />
+                <Box sx={styles.wrapper}>
+                  <Heading sx={styles.wrapper.title}>
+                    {feature.title}
+                    <Text sx={styles.wrapper.subTitle}>{feature.text}</Text>
+                  </Heading>
+                </Box>
+              </Box>
+            ))}
+          </Grid>
+        </Box>
+        <ModalVideo
+          channel="youtube"
+          isOpen={videoOpen}
+          videoId="iGBERMGMIvc"
+          onClose={() => setVideoOpen(false)}
+        />
       </Container>
     </section>
   );
 }
-//58
 
 const playPluse = keyframes`
   from {
