@@ -92,13 +92,11 @@ const styles = {
       display: "none",
     },
   },
-
   drawer: {
     width: "100%",
     height: "100%",
     backgroundColor: "dark",
   },
-
   close: {
     display: "flex",
     alignItems: "center",
@@ -109,7 +107,6 @@ const styles = {
     zIndex: "1",
     cursor: "pointer",
   },
-
   content: {
     width: "100%",
     height: "100%",
@@ -119,7 +116,6 @@ const styles = {
     pb: "40px",
     px: "30px",
   },
-
   menu: {
     width: "100%",
     display: "flex",
@@ -140,7 +136,6 @@ const styles = {
       },
     },
   },
-
   menuFooter: {
     width: "100%",
     display: "flex",
@@ -148,13 +143,11 @@ const styles = {
     alignItems: "center",
     mt: "auto",
   },
-
   social: {
     width: "100%",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-
     icon: {
       display: "flex",
       alignItems: "center",
@@ -172,7 +165,6 @@ const styles = {
       },
     },
   },
-
   button: {
     color: "white",
     fontSize: "14px",

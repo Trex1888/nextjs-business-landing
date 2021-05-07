@@ -251,7 +251,7 @@ export default function Package() {
     if (plan === "annual") {
       setState({ active: "annual", pricingPlan: annual });
     } else {
-      setState({ active: "month", pricingPlan: monthly });
+      setState({ active: "monthly", pricingPlan: monthly });
     }
   };
 
@@ -282,7 +282,6 @@ export default function Package() {
     <section id="pricing" sx={{ variant: "section.pricing" }}>
       <Container>
         <SectionHeader slogan="Pricing Plan" title="Choose your pricing plan" />
-
         <Flex sx={styles.buttonGroup}>
           <Box sx={styles.buttonGroupInner}>
             <button
@@ -303,6 +302,15 @@ export default function Package() {
             </button>
           </Box>
         </Flex>
+        <Box sx={styles.pricingWrapper} className="pricing__wrapper">
+          <Carousel {...sliderParams}>
+            {state.pricingPlan.map((packageData) => (
+              <Box sx={styles.pricingItem} key={packageData.id}>
+                <PriceCard data={packageData} />
+              </Box>
+            ))}
+          </Carousel>
+        </Box>
       </Container>
     </section>
   );
