@@ -15,8 +15,8 @@ export default function Banner() {
           </Heading>
           <Text as="p" variant="heroSecondary">
             We are elite level programmers and developers. Let us build your
-            dream website or app for your business. Check out the links above to
-            view our services. You won't be disappointed.
+            dream website or app for your business. Scroll down to learn more
+            about our services. You won't be disappointed.
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>

@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx, Box, Card, Text, Heading, Button } from "theme-ui";
-import React from "react";
 import List from "./list";
 
 export default function PriceCard({

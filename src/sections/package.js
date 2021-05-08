@@ -1,21 +1,20 @@
 /** @jsx jsx */
 import { jsx, Container, Box, Flex } from "theme-ui";
 import { keyframes } from "@emotion/core";
-import React, { useState } from "react";
+import { useState } from "react";
 import Carousel from "react-multi-carousel";
 import PriceCard from "components/price-card";
 import ButtonGroup from "components/button-group";
 import SectionHeader from "components/section-header";
 import { IoIosCheckmarkCircle, IoIosCloseCircle } from "react-icons/io";
-import { Button } from "react-scroll";
 
 const packages = {
   monthly: [
     {
       id: 1,
       name: "Free Plan",
-      description: "For Small teams or office",
-      buttonText: "Start free trail",
+      description: "For Small Teams or Office",
+      buttonText: "Start Free Trial",
       priceWithUnit: "$0",
       points: [
         {
@@ -46,34 +45,34 @@ const packages = {
     },
     {
       id: 2,
-      name: "Business king",
-      description: "For Enterprise business",
-      priceWithUnit: "$15",
-      buttonText: "Create account",
-      anotherOption: "Or Start 14 Days trail",
+      name: "Business Plan",
+      description: "For Enterprise Business",
+      priceWithUnit: "$25",
+      buttonText: "Create Account",
+      anotherOption: "Or Start 14 Days Trail",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder",
+          text: "Unlimited Transactions",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Money Back Guarantee",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "Blog Support Tools",
+          text: "Instant Customer Service",
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCheckmarkCircle />,
-          text: "eCommerce Store ",
+          text: "Profit Sharing Available",
           isAvailable: true,
         },
       ],
@@ -83,33 +82,33 @@ const packages = {
       header: "Suggested",
       headerIcon: <IoIosCheckmarkCircle />,
       name: "Pro Master",
-      description: "For pro level developers",
-      priceWithUnit: "$24",
-      buttonText: "Create account",
-      anotherOption: "Or Start 14 Days trail",
+      description: "For Pro Level Developers",
+      priceWithUnit: "$39",
+      buttonText: "Create Account",
+      anotherOption: "Or Start 14 Days Trial",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder",
+          text: "Unlimited Access",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Free Hosing Services",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "Blog Support Tools",
+          text: "Exclusive Zoom Calls",
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCheckmarkCircle />,
-          text: "eCommerce Store ",
+          text: "Free Future Products",
           isAvailable: true,
         },
       ],
@@ -119,20 +118,20 @@ const packages = {
     {
       id: 1,
       name: "Free Plan",
-      description: "For Small teams or office",
-      buttonText: "Start free trail",
+      description: "For Small Teams or Office",
+      buttonText: "Start Free Trial",
       priceWithUnit: "$0",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Drag & Drop Builder",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder",
+          text: "1,000's of Templates",
           isAvailable: true,
         },
         {
@@ -151,34 +150,34 @@ const packages = {
     },
     {
       id: 2,
-      name: "Business king",
-      description: "For Enterprise business",
-      priceWithUnit: "$25",
-      buttonText: "Create account",
-      anotherOption: "Or Start 10 Days trail",
+      name: "Business Plan",
+      description: "For Enterprise Business",
+      priceWithUnit: "$15",
+      buttonText: "Create Account",
+      anotherOption: "Or Start 10 Days Trial",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "eCommerce Store",
+          text: "Unlimited Transactions",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Blog Support Tools",
+          text: "Money Back Guarantee",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Instant Customer Service",
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder ",
+          text: "Profit Sharing Available",
           isAvailable: true,
         },
       ],
@@ -188,33 +187,33 @@ const packages = {
       header: "Suggested",
       headerIcon: <IoIosCheckmarkCircle />,
       name: "Pro Master",
-      description: "For pro level developers",
-      priceWithUnit: "$39",
-      buttonText: "Create account",
-      anotherOption: "Or Start 10 Days trail",
+      description: "For Pro Level Developers",
+      priceWithUnit: "$25",
+      buttonText: "Create Account",
+      anotherOption: "Or Start 10 Days Trial",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "eCommerce Store",
+          text: "Unlimited Access",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Blog Support Tools",
+          text: "Free Hosing Services",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Exclusive Zoom Calls",
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder ",
+          text: "Free Future Products",
           isAvailable: true,
         },
       ],
@@ -281,7 +280,7 @@ export default function Package() {
   return (
     <section id="pricing" sx={{ variant: "section.pricing" }}>
       <Container>
-        <SectionHeader slogan="Pricing Plan" title="Choose your pricing plan" />
+        <SectionHeader slogan="Pricing Plan" title="Choose Your Pricing Plan" />
         <Flex sx={styles.buttonGroup}>
           <Box sx={styles.buttonGroupInner}>
             <button

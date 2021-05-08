@@ -16,8 +16,8 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: "Tom Coach",
-    title: "Tom Coach",
+    altText: "Tom Freeman",
+    title: "Tom Freeman",
     designation: "CEO and Founder",
     socialProfile: [
       {
@@ -45,7 +45,7 @@ const data = [
     imgSrc: Member2,
     altText: "Jess Freeman",
     title: "Jess Freeman",
-    designation: "CTO and Founder",
+    designation: "VP and Founder",
     socialProfile: [
       {
         id: 1,
@@ -72,7 +72,7 @@ const data = [
     imgSrc: Member5,
     altText: "Tony Harper",
     title: "Tony Harper",
-    designation: "COO and Founder",
+    designation: "Web Developer",
     socialProfile: [
       {
         id: 1,
@@ -126,7 +126,7 @@ const data = [
     imgSrc: Member4,
     altText: "Trey Paste",
     title: "Trey Paste",
-    designation: "Web Developer",
+    designation: "Software Engineer",
     socialProfile: [
       {
         id: 1,
@@ -154,7 +154,7 @@ const data = [
     imgSrc: Member6,
     altText: "Andy Grey",
     title: "Andy Grey",
-    designation: "Web Designer",
+    designation: "Digital Marketing",
     socialProfile: [
       {
         id: 1,
@@ -184,7 +184,7 @@ export default function TeamSection() {
       <Container>
         <SectionHeader
           slogan="Our Team"
-          title="The most qualified and talented individuals"
+          title="Meet Our Fantastic Team & Follow Their Social Media"
         />
         <Grid sx={styles.grid}>
           {data.map((item) => (

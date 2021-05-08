@@ -7,7 +7,6 @@ import Performance from "assets/key-feature/performance.svg";
 import Partnership from "assets/key-feature/partnership.svg";
 import Subscription from "assets/key-feature/subscription.svg";
 import Support from "assets/key-feature/support.svg";
-import FeatureCard from "components/feature-card";
 
 const data = [
   {
@@ -16,15 +15,15 @@ const data = [
     altText: "Fast Performance",
     title: "Fast Performance",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "We use the latest and greatest technology to create lightning fast products and content.",
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: "Partnership deal",
-    title: "Partnership deal",
+    altText: "Partnership Deal",
+    title: "Partnership Deal",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "We take pride in aligning ourselves with quality businesses in the community.",
   },
   {
     id: 3,
@@ -32,7 +31,7 @@ const data = [
     altText: "Pro Subscription",
     title: "Pro Subscription",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "We have lots of amazing free perks and benefits when you sign up for a Pro Subscription.",
   },
   {
     id: 4,
@@ -40,7 +39,7 @@ const data = [
     altText: "Customer Support",
     title: "Customer Support",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "We have got you covered with 24/7 round the clock technical support on stand by.",
   },
 ];
 
@@ -49,8 +48,8 @@ export default function KeyFeature() {
     <section sx={{ variant: "section.keyFeature" }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Meet the future of products"
+          slogan="Cutting edge Innovation"
+          title="Meet The Future "
         />
 
         <Grid sx={styles.grid}>

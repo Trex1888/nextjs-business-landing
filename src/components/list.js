@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import React from "react";
 import { jsx, Flex, Box, IconButton } from "theme-ui";
 
 export default function List({ items = [], parentStyle, childStyle }) {

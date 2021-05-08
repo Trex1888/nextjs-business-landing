@@ -6,10 +6,10 @@ import FeatureThumb from "assets/core-feature.png";
 import shapePattern from "assets/shape-pattern2.png";
 
 const data = {
-  subTitle: "Core features",
-  title: "Smart Jackpots that you may love this anytime & anywhere",
+  subTitle: "Smart features",
+  title: "Smart and AI Voice Recognition Features Make Using Our Products Fun.",
   description:
-    "Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.",
+    "Enhance your workflow by telling your computer what to type and it will do it. We use this practice and will teach it to you for everyday use.",
   btnName: "Get Started",
   btnURL: "#",
 };

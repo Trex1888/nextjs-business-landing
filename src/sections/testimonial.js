@@ -9,36 +9,38 @@ import Avatar1 from "assets/testimonial/avatar1.png";
 import Avatar2 from "assets/testimonial/avatar2.png";
 import Avatar3 from "assets/testimonial/avatar3.png";
 import Avatar4 from "assets/testimonial/avatar4.png";
+import Avatar5 from "assets/testimonial/avatar5.png";
+import Avatar6 from "assets/testimonial/avatar6.png";
 
 const data = [
   {
     id: 1,
-    title: "Modern look & trending design",
+    title: "Modern look & beautiful design",
     description:
       "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
     avatar: Avatar1,
     name: "Becky Green",
-    designation: "@denny.hil",
+    designation: "@becky3.you",
     review: 4,
   },
   {
     id: 2,
-    title: "Design Quality & performance",
+    title: "Great quality & performance",
     description:
       "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
     avatar: Avatar2,
     name: "Bill Red",
-    designation: "@denny.hil",
+    designation: "@bRed4.you",
     review: 5,
   },
   {
     id: 3,
-    title: "Layout and organized layers",
+    title: "Fantasic user experience",
     description:
       "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
     avatar: Avatar3,
     name: "Esther Page",
-    designation: "@denny.hil",
+    designation: "@esther1.you",
     review: 5,
   },
   {
@@ -46,29 +48,29 @@ const data = [
     title: "The best web developers",
     description:
       "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar4,
-    name: "August West",
-    designation: "@denny.hil",
+    avatar: Avatar5,
+    name: "Jeff Blue",
+    designation: "@jeffb5.you",
     review: 4,
   },
   {
     id: 5,
-    title: "Best looking designs",
+    title: "Outstanding looking designs",
     description:
       "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
     avatar: Avatar4,
-    name: "Jeff Blue",
-    designation: "@denny.hil",
-    review: 5,
+    name: "August West",
+    designation: "@awest9.you",
+    review: 4,
   },
   {
     id: 6,
-    title: "Top Notch Service",
+    title: "Top notch product",
     description:
       "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar4,
+    avatar: Avatar6,
     name: "Pete Carini",
-    designation: "@denny.hil",
+    designation: "@carini0.you",
     review: 5,
   },
 ];
@@ -123,12 +125,12 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: "section.testimonial" }}>
       <Container css={{ textAlign: "center" }}>
-        <SectionHeader slogan="Testimonials" title="Meet Satisfied Clients" />
+        <SectionHeader slogan="Testimonials" title="Meet Satisfied Customers" />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel {...carouselParams}>
           {data.map((item) => (
-            <Box sx={styles.reviewCard} key={item.sliderClass}>
+            <Box sx={styles.reviewCard} key={item.id}>
               <Rating rating={item.review} />
               <Heading as="h3" sx={styles.title}>
                 {item.title}

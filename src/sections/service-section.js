@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   jsx,
   Container,
@@ -23,7 +23,7 @@ import Secure from "assets/services/secure.svg";
 
 const data = {
   subTitle: "our services",
-  title: "Business Goals Achieved with Design",
+  title: "Business Goals Achieved With Design",
   features: [
     {
       id: 1,
@@ -31,7 +31,7 @@ const data = {
       altText: "Smart Features",
       title: "Smart Features",
       text:
-        "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+        "All of our products have AI voice recognition. Connect multiple devices with ease and recieve notififactions.",
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ const data = {
       altText: "Secure Contents",
       title: "Secure Contents",
       text:
-        "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+        "Our products are 100% secure through private encrypted servers. Security breaches are monitered closely as well.",
     },
   ],
 };
