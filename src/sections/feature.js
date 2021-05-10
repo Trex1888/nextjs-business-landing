@@ -11,35 +11,35 @@ import Support from "assets/feature/support.svg";
 const data = [
   {
     id: 1,
-    imgSrc: Performance,
-    altText: "Fast Performance",
-    title: "Fast Performance",
+    imgSrc: Support,
+    altText: "Group Chat",
+    title: "Group Chat",
     text:
-      "Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.",
+      "This is one of the most powerful parts of our services. Should any problems or questions arise the group chat usually knows the quick fix immediatedly.",
   },
   {
     id: 2,
-    imgSrc: Partnership,
-    altText: "Pro Subscription",
-    title: "Pro Subscription",
+    imgSrc: Performance,
+    altText: "New Technologies",
+    title: "New Technologies",
     text:
-      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+      "We don't build basic cutter cookie websites and apps. Instead we go all out and dynamically deliver exactly what you want at a fantastic price.",
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: "Partnership Deal",
-    title: "Partnership Deal",
+    altText: "Mentoring Students",
+    title: "Mentoring Students",
     text:
-      "Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.",
+      "Our Pro Master membership packages come with a great oppurtuanity to work directly with a mentor. We have graduated many successful students.",
   },
   {
     id: 4,
-    imgSrc: Support,
-    altText: "Customer Support",
-    title: "Customer Support",
+    imgSrc: Partnership,
+    altText: "Weekly Newsletter",
+    title: "Weekly Newsletter",
     text:
-      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+      "Stay up to date with the most current technologies, updates, and features. The weekly newsletter sent to your email is packed full of information.",
   },
 ];
 

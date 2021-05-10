@@ -10,27 +10,27 @@ import ArrowEven from "assets/arrowEven.svg";
 const data = [
   {
     id: 1,
-    title: "Set disbursement Instructions",
+    title: "Add To Visual Studio Code or Any IDE",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Easy to install and compatable with almost every IDE currently used by most developers.",
   },
   {
     id: 2,
-    title: "Assembly retrieves funds from your account",
+    title: "Login With GitHub, Google, and More",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Login and store data easily through 3rd party platfroms with your exclusive consent.",
   },
   {
     id: 3,
-    title: "Assembly initiates disbursement",
+    title: "Publish and Develop Websites or Apps",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "You won't believe how quickly we can upload and convert your code into a working website.",
   },
   {
     id: 4,
-    title: "Customer receives funds payment",
+    title: "Rated #1 In Customer Satisfaction and Service",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Thousands of satisfied customers use our products everyday and we are rated #1 annually.",
   },
 ];
 
@@ -39,8 +39,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats The Function"
-          title="Meet the feature of our product"
+          slogan="Top Notch Software"
+          title="Our Software Is Rated #1"
           isWhite={true}
         />
 

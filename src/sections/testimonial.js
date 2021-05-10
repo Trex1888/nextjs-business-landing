@@ -17,7 +17,7 @@ const data = [
     id: 1,
     title: "Modern look & beautiful design",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "With the product you get to work with modern designs and features. That is very important to me as a freelance web developer. This is the only software I will buy now!",
     avatar: Avatar1,
     name: "Becky Green",
     designation: "@becky3.you",
@@ -27,7 +27,7 @@ const data = [
     id: 2,
     title: "Great quality & performance",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "Without a doubt this is the highest quality website I have ever had built for one of my businesses. It's just outstanding and will recommend to all my other clients.",
     avatar: Avatar2,
     name: "Bill Red",
     designation: "@bRed4.you",
@@ -37,17 +37,17 @@ const data = [
     id: 3,
     title: "Fantasic user experience",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "I was blown away with how easy the software is to learn and use. They are with you every step of the way. Customer Supprt helped take care of my issue right away.",
     avatar: Avatar3,
-    name: "Esther Page",
-    designation: "@esther1.you",
+    name: "Charlie Page",
+    designation: "@cpage3.you",
     review: 5,
   },
   {
     id: 4,
     title: "The best web developers",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "This product changed my life! Couldn't be happier after completing the mentorship program. Just recently I got hired as a full-stack web developer. Thank You!",
     avatar: Avatar5,
     name: "Jeff Blue",
     designation: "@jeffb5.you",
@@ -57,7 +57,7 @@ const data = [
     id: 5,
     title: "Outstanding looking designs",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "Definetely the beautiful and unique designs put this product over the top. As for the price you can't beat that either. I will give a solid 4 star rating for this nearly 5.",
     avatar: Avatar4,
     name: "August West",
     designation: "@awest9.you",
@@ -67,10 +67,10 @@ const data = [
     id: 6,
     title: "Top notch product",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "I give this product 5 stars. I would have give a higher rating if that were an option. Don't waste your time with any other products, sign up for Pro Master plan immediately.",
     avatar: Avatar6,
-    name: "Pete Carini",
-    designation: "@carini0.you",
+    name: "Tammy Hatfield",
+    designation: "@tammyh9.you",
     review: 5,
   },
 ];

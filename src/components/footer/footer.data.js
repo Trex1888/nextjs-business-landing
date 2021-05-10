@@ -8,17 +8,17 @@ export default {
     {
       id: 2,
       path: "/",
-      label: "Adversite",
+      label: "Advertise",
     },
     {
       id: 3,
       path: "/",
-      label: "Supports",
+      label: "Marketing",
     },
     {
       id: 4,
       path: "/",
-      label: "Marketing",
+      label: "Support",
     },
     {
       id: 5,

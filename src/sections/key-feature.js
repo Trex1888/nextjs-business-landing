@@ -23,7 +23,7 @@ const data = [
     altText: "Partnership Deal",
     title: "Partnership Deal",
     text:
-      "We take pride in aligning ourselves with quality businesses in the community.",
+      "We love working and aligning ourselves with great businesses in the local community.",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const data = [
     altText: "Pro Subscription",
     title: "Pro Subscription",
     text:
-      "We have lots of amazing free perks and benefits when you sign up for a Pro Subscription.",
+      "We have lots of amazing perks and benefits when you sign up for a new Pro Master Subscription.",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const data = [
     altText: "Customer Support",
     title: "Customer Support",
     text:
-      "We have got you covered with 24/7 round the clock technical support on stand by.",
+      "We have got you covered with round the clock live technical support on stand by 24/7.",
   },
 ];
 

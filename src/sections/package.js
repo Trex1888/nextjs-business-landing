@@ -96,7 +96,7 @@ const packages = {
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Free Hosing Services",
+          text: "Free Hosting Services",
           isAvailable: true,
         },
         {
@@ -201,7 +201,7 @@ const packages = {
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Free Hosing Services",
+          text: "Free Hosting Services",
           isAvailable: true,
         },
         {
