@@ -38,7 +38,7 @@ const packages = {
         {
           id: 4,
           icon: <IoIosCloseCircle />,
-          text: "eCommerce Store ",
+          text: "eCommerce Store",
           isAvailable: true,
         },
       ],
@@ -143,7 +143,7 @@ const packages = {
         {
           id: 4,
           icon: <IoIosCloseCircle />,
-          text: "eCommerce Store ",
+          text: "eCommerce Store",
           isAvailable: true,
         },
       ],
